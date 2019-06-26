@@ -1,4 +1,4 @@
-FROM php:7.1.8-apache
-COPY . /var/www/html
-WORKDIR /var/www/html
+FROM php:7.2-apache
+
+COPY . /app
 EXPOSE 80
